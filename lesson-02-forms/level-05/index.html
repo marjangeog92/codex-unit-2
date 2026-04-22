@@ -9,6 +9,18 @@
     <h1>Level 05 — Select, Optgroup & Options</h1>
     <form>
       <!-- TODO: Add a select with options and at least one optgroup -->
+      <label>Choose a Plan</label>
+      <select name="plan">
+        <optgroup label="Monthly Plans">
+          <option value="basic">Basic</option>
+          <option value="pro">Pro</option>
+        </optgroup>
+        <optgroup label="Yearly Plans">
+          <option value="basic-year">Basic (yearly)</option>
+          <option value="pro-year">Pro (yearly)</option>
+        </optgroup>
+      </select>
+      <button type="submit">Submit</button>
     </form>
   </body>
 </html>
