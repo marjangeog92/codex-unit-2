@@ -9,7 +9,21 @@
     <h1>Level 09 — Basic Validation</h1>
     <form>
       <!-- TODO: Add required attributes and minlength/maxlength where appropriate -->
+      <label for="username">Username</label>
+      <input
+        id="username"
+        name="username"
+        type="text"
+        required
+        minlength="3"
+        maxlength="20"
+      />
       <!-- TODO: If using a range input, include min and max -->
+
+      <label for="rating">Rating</label>
+      <input id="rating" name="rating" type="range" min="1" max="5" />
+
+      <button type="submit">Submit</button>
     </form>
   </body>
 </html>
