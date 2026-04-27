@@ -1,5 +1,8 @@
 .demo {
   width: 200px;
   background: #eef;
+  padding: 100px;
+  border: 10px dashed deeppink;
+  margin: 20px;
 }
 /* TODO: change padding/border/margin values to see layout effects */
